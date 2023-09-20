@@ -1,0 +1,181 @@
+*{
+    font-family: Tahoma;
+}
+
+.header{
+    display: flex;
+    background-color: rgb(103, 130, 114);
+    padding: 10px;
+}
+
+.header-logo img{
+    height: 100px;
+}
+
+.header-title{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.header-title a{
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+}
+
+.nav{
+    background-color: rgb(151, 192, 172);
+    padding: 10px;
+    margin-top: 0px
+}
+
+.nav-item{
+    display:inline-block;
+    margin-left: 20px;
+    height: 20px;
+}
+
+.nav-item a{
+    color: black;
+    text-decoration: none;
+}
+
+.nav-item a:hover{
+    color: cadetblue;
+}
+
+.konten{
+    width: 80%;
+    margin:auto;
+}
+
+.konten h1{
+    color: rgb(197, 197, 101);
+    font-size: 35px;
+}
+
+.konten h2{
+    font-size: 22px;
+    color: rgb(163, 171, 126);
+}
+
+.konten img {
+    text-align: center;
+    margin: 60px;
+}
+
+.list-program {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px;
+}
+
+.program-item {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: calc(50% - 10px);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s ease;
+}
+
+.program-item:hover {
+    transform: translateY(-5px);
+}
+
+.program-item h2 {
+    font-size: 20px;
+    color: #333;
+    margin: 0;
+    text-align: center;
+}
+
+.program-item p {
+    color: #666;
+    font-size: 14px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.program-item a {
+    text-decoration: none;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.course-item a:hover {
+    background-color: #0056b3;
+}
+
+/* CSS untuk rating bintang */
+.rating {
+    font-size: 24px;
+    color: gold;
+    margin-left: 5px;
+}
+
+/* CSS untuk rating setengah bintang */
+.rating {
+    font-size: 24px;
+    color: gold;
+    margin-left: 5px;
+}
+
+.star {
+    display: inline-block;
+}
+
+
+
+.form-group{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.form-group label{
+    display:block;
+    font-size: 20px;
+    color: rgb(104, 108, 168);
+}
+
+.form-group input{
+    display:block;
+    margin-top: 10px;
+    width:60%;
+}
+
+.form-group textarea{
+    display: block;
+    margin-top: 10px;
+    height: 200px;
+    width:60%;
+}
+
+.btn{
+    width: 150px;
+    height:50px;
+    font-size: 20px;
+    font-weight: bold;
+    color: aliceblue;
+    background-color: cornflowerblue;
+    border:0px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgb(103, 130, 114);
+}
+
+.btn:active{
+    background-color: rgb(197, 197, 101);
+}
